@@ -1,0 +1,53 @@
+
+.calculator{
+    height: 100vh;
+}
+
+.calculator-body{
+    width: 30vw;
+    border: 3px solid black;
+    padding: 2rem;
+}
+
+.form-control{
+    font-size: 1.5rem;
+}
+
+button{
+    margin-top: 1px;
+}
+
+.btn{
+    font-size: 2rem;
+}
+
+@media(max-width: 1300px){
+    .calculator-body{
+        width: 40vw;
+    }
+}
+
+@media(max-width: 1230px){
+    .calculator-body{
+        width: 50vw;
+    }
+}
+
+@media(max-width: 803px){
+    .calculator-body{
+        width: 90vw;
+        
+    }
+    .btn{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width: 500px){
+    .calculator-body{
+        width: 100vw;
+        
+    }
+    .btn{
+        font-size: 1.1rem;
+    }
+}
